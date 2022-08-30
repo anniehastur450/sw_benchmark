@@ -116,33 +116,33 @@ Comparison: HDD to HDD
 
 Target files: **468** MiB, **63,288** files
 
-|           |    explorer    |    robocopy    |    FastCopy    |
-| --------- | -------------: | -------------: | -------------: |
-| Listing   |        7.3 sec |        0.4 sec |        1.4 sec |
-| Copying   | 7:05 (425 sec) | 2:06 (126 sec) | 1:52 (112 sec) |
-| TransRate |      1.1 MiB/s |      3.7 MiB/s |      4.2 MiB/s |
-| FileRate  |  148.9 files/s |  502.3 files/s |  565.1 files/s |
+|           |    explorer    |    robocopy    |      FastCopy      |
+| --------- | -------------: | -------------: | -----------------: |
+| Listing   |        7.3 sec |    **0.4 sec** |            1.4 sec |
+| Copying   | 7:05 (425 sec) | 2:06 (126 sec) | **1:52 (112 sec)** |
+| TransRate |      1.1 MiB/s |      3.7 MiB/s |      **4.2 MiB/s** |
+| FileRate  |  148.9 files/s |  502.3 files/s |  **565.1 files/s** |
 
 Comparison: SATA SSD to SATA SSD
 ---
 
 Target files: **468** MiB, **63,288** files
 
-|           |    explorer    |    robocopy    |    FastCopy    |
-| --------- | -------------: | -------------: | -------------: |
-| Listing   |        7.1 sec |        0.4 sec |        1.4 sec |
-| Copying   | 5:50 (350 sec) | 2:01 (121 sec) | 1:49 (109 sec) |
-| TransRate |      1.3 MiB/s |      3.9 MiB/s |      4.3 MiB/s |
-| FileRate  |  180.8 files/s |  523.0 files/s |  580.6 files/s |
+|           |    explorer    |    robocopy    |      FastCopy      |
+| --------- | -------------: | -------------: | -----------------: |
+| Listing   |        7.1 sec |    **0.4 sec** |            1.4 sec |
+| Copying   | 5:50 (350 sec) | 2:01 (121 sec) | **1:49 (109 sec)** |
+| TransRate |      1.3 MiB/s |      3.9 MiB/s |      **4.3 MiB/s** |
+| FileRate  |  180.8 files/s |  523.0 files/s |  **580.6 files/s** |
 
 Comparison: NVMe SSD to NVMe SSD
 ---
 
 Target files: **468** MiB, **63,288** files
 
-|           |    explorer    |    robocopy    |    FastCopy    |
-| --------- | -------------: | -------------: | -------------: |
-| Listing   |        7.1 sec |        0.4 sec |        1.4 sec |
-| Copying   | 4:07 (247 sec) |        9.5 sec |         20 sec |
-| TransRate |      1.9 MiB/s |     49.3 MiB/s |     23.4 MiB/s |
-| FileRate  |  256.2 files/s | 6661.9 files/s | 3164.4 files/s |
+|           |    explorer    |      robocopy      |    FastCopy    |
+| --------- | -------------: | -----------------: | -------------: |
+| Listing   |        7.1 sec |        **0.4 sec** |        1.4 sec |
+| Copying   | 4:07 (247 sec) |        **9.5 sec** |         20 sec |
+| TransRate |      1.9 MiB/s |     **49.3 MiB/s** |     23.4 MiB/s |
+| FileRate  |  256.2 files/s | **6661.9 files/s** | 3164.4 files/s |
