@@ -28,10 +28,6 @@ TL;DR: Conclusion
 Disks' Properties
 ---
 
-A. Typical external HDD
-B. External SATA SSD
-C. M.2 NVMe SSD
-
 |                        |   R: HDD    |   W: HDD    | R: SATA SDD | W: SATA SDD | R: NVMe SSD  | W: NVMe SSD  |
 | ---------------------- | ----------: | ----------: | ----------: | ----------: | -----------: | -----------: |
 | SEQ1M<sub>Q1T1</sub>   | 111.36 MB/s | 111.57 MB/s | 424.88 MB/s | 335.32 MB/s | 1981.10 MB/s | 1913.41 MB/s |
